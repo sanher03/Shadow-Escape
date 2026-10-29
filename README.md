@@ -22,28 +22,46 @@ un entorno compatible con el formato y la arquitectura de esa biblioteca.
 
 ## Compilar y jugar
 
-Desde la raíz del proyecto:
+Ejecuta los comandos desde la raíz del proyecto. El objetivo predeterminado
+compila el juego y los ejecutables de prueba, que se guardan en `bin/`:
 
 ```sh
 make
 ```
 
-Esto compila el juego y los ejecutables de prueba. Para iniciar una partida con el
-mapa incluido:
+Los objetivos principales del Makefile son:
+
+| Comando | Función |
+|---|---|
+| `make` o `make all` | Compila el juego y todos los tests. |
+| `make game` | Compila solo el juego normal en `bin/game`. |
+| `make game_debug` | Limpia los objetos y ejecutables generados y recompila el juego con `DEBUG`. En ese modo los ataques se fuerzan a tener éxito. |
+| `make run` | Compila si hace falta e inicia una partida con `data/nuevo.dat`. |
+| `make run_log` | Inicia la partida y escribe el registro de comandos en `fchlog.log`. |
+| `make run_v` | Ejecuta el juego bajo Valgrind; requiere tener Valgrind instalado. |
+| `make run_log_v` | Ejecuta bajo Valgrind y registra los comandos en `fchlog.log`. |
+| `make test` | Compila todos los ejecutables de pruebas, sin ejecutarlos. |
+| `make <nombre>_test` | Compila un test concreto, por ejemplo `make command_test`. |
+| `make clear` | Elimina los archivos objeto de `obj/`. |
+| `make clean` | Elimina los archivos objeto, el juego y los ejecutables de pruebas generados. |
+| `make Doxygen` | Genera la documentación técnica con Doxygen. |
+
+Para iniciar directamente el ejecutable compilado con el mapa incluido:
 
 ```sh
 ./bin/game data/nuevo.dat
 ```
 
-También se puede usar el objetivo `make run`. Para guardar en un archivo el
-resultado de los comandos de la partida:
+El programa espera el archivo de datos como primer argumento. Para usar otro
+mapa, pasa su ruta al ejecutable. También puedes registrar los comandos con
+`-l` seguido de una ruta de archivo:
 
 ```sh
 ./bin/game data/nuevo.dat -l partida.log
 ```
 
-El programa espera un archivo de datos como primer argumento. La opción `-l`
-debe ir seguida del nombre del archivo de registro.
+El Makefile usa `data/nuevo.dat` como mapa por defecto en los objetivos `run*`;
+`run_log` y `run_log_v` escriben específicamente en `fchlog.log`.
 
 ## Comandos
 
@@ -56,7 +74,7 @@ formas largas o las abreviaturas indicadas:
 | Recoger / dejar un objeto | `take <objeto>` (`t`) / `drop <objeto>` (`d`) |
 | Atacar / disparar / apuñalar | `attack` (`a`) / `shoot` (`sh`) / `stab` (`st`) |
 | Desplazarse | `move <dirección>` (`m`); direcciones: `north`, `south`, `east`, `west`, `up`, `down` o `n`, `s`, `e`, `w`, `u`, `d` |
-| Inspeccionar | `inspect <objeto|space>` (`i`) |
+| Inspeccionar | `inspect <objeto/space>` (`i`) |
 | Encender / apagar | `turnon <objeto>` (`ton`) / `turnoff <objeto>` (`toff`) |
 | Abrir un enlace con un objeto | `open <enlace> with <objeto>` (`o`) |
 | Guardar / cargar | `save <archivo>` (`s`) / `load <archivo>` (`ld`) |
@@ -76,7 +94,8 @@ secuencia de comandos de ejemplo; puede revelar partes del recorrido.
 
 ## Pruebas
 
-`make test` compila los ejecutables de prueba. Para ejecutarlos todos:
+`make test` compila los tests dentro de `bin/`, pero no los ejecuta. Para
+compilarlos y ejecutar toda la suite:
 
 ```sh
 ./scripts/run_tests.sh 0
@@ -88,12 +107,17 @@ Para ejecutar un módulo concreto, por ejemplo:
 ./scripts/run_tests.sh 0 command_test
 ```
 
-El primer argumento `1` ejecuta las pruebas con Valgrind, que debe estar
-instalado:
+El primer argumento `1` ejecuta la suite con Valgrind, que debe estar instalado:
 
 ```sh
 ./scripts/run_tests.sh 1
 ```
+
+También se puede compilar y lanzar un ejecutable de prueba manualmente, por
+ejemplo `make command_test && ./bin/command_test`. Los tests disponibles son
+`space_test`, `set_test`, `enemy_test`, `link_test`, `object_test`,
+`command_test`, `game_management_test`, `player_test`, `inventory_test` y
+`game_test`.
 
 Los ejecutables muestran el porcentaje y el resultado de cada prueba. Las
 pruebas están organizadas por módulos del juego (espacios, enlaces, objetos,
