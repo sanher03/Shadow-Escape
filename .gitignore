@@ -1,0 +1,17 @@
+# Build outputs
+/game
+/bin/*
+!/bin/.gitkeep
+/obj/*.o
+/*_test
+/core
+/*.log
+/does_not_exist.dat
+/save.dat
+
+# Generated Doxygen output
+/doc/html/
+/doc/latex/
+
+# Academic material kept locally, not for the public repository
+/local-only/

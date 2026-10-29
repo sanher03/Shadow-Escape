@@ -1,0 +1,126 @@
+#p:1|spy|10|15|1|
+#e:2|enemy|26|5|
+#s:10|Bedroom|You seem to be on your bedroom|There is a backpack to carry things|0|                               || @                              /  \@                             /    \@                            /______\ @            ___________ @           |           |@           |           |                      __@           |           |                    /'  |@           |           |               ______   |@           |         o |         _____|      |__|___@           |           |          || _|______|_  ||@           |           |          || |___||___|  ||@___________|___________|__________||_____/\______||_________________@ @ @ @ @ @ @ @ @ @ @
+#l:31|to Corridor|10|11|0|0|
+#s:11|Corridor|There are no rooms on the sides|You can see s staircase at the end|0|                        |         |@                        |         |@                        |         |    @                        |         |     @                        |_________|      @                       /           \    @            |         /             \         |@            |        /               \        | @            |       /                 \       |@            |      /                   \      |@            |     /                     \     |@            |    /                       \    |@            |   /                         \   |@            |  /                           \  |@            | /                             \ |@____________|/                               \|____________@ @ @ @ @ @ @ @
+#l:32|to Bedroom|11|10|1|0|
+#l:33|to Stairs|11|12|0|0|
+#s:12|Stairs|They lead to the lower floor|Thre is nothing important|0|                              _______@                            _/_______\_@                         __/___________\__@                        /                 \@                    ___/___________________\____@                   /                            \@                  /                              \ @            ____ /________________________________\_____   @           /                                            \@          /                                              \@         /                                                \@        /                                                  \@       /                                                    \ @______/______________________________________________________\___________@ @ @ @ @ @ @ @ @ @
+#l:34|to Corridor|12|11|1|0|
+#l:35|to downtairs Corridor|12|13|5|0|
+#l:36|to Stairs|12|11|4|0|
+#l:37|to downtairs Corridor|12|13|5|0|
+#l:38|to Stairs|12|11|4|0|
+#s:13|Corridor|There are to rooms on the sides|You can see the door at the end|0| @ @                         |  _____  | @                         | |     | | @                    /|   | |     | |   |\ @                   / |   | |    o| |   | \ @                  |  |   |_|_____|_|   |  | @                  |  |  /           \  |  | @            |     |  | /             \ |  |      | @            |     |  |/               \|  |      |  @            |     |                       |      | @            |     |                       |      | @            |     /                        \     | @            |    /                          \    | @            |   /                            \   | @            |  /                              \  | @            | /                                \ | @____________|/                                  \|____________@ @ @ @ @ @
+#l:39|to Livingroom|13|14|3|0|
+#l:41|to Kitchen|13|15|2|0|
+#l:41|to Door|13|16|0|0|
+#s:14|Salon|this is the entry|hola hola|0|                                                 ______@                                                /      \@                                               /        \@        _________________________             /          \@       |            |            |            \__________/@      _|            |            |_                || |@     //|            |            |\\               || o@    // |____________|____________| \\              || @   //  /            |            \  \\       _____/__\_____ @   || / ---o        |             \ ||       ||          ||@   ||/__''__________|______________\||       ||          ||@   ||_______________________________||       ||          ||@   ||                               ||       ||          ||@ @ @ @ @ @ @ @ @ @ @
+#l:40|to downtairs Corridor|14|13|2|0|
+#s:15|Cocina|this is the entry|hola hola|0|             |     |@             |     |@            /_______\@           |_________|              __@                                   / _\@                                   ||@        _________________        _ || _@  _____|_________________|_______\\||//____________@ |    ______     ______     ______     _________   |@ |   |      |   |      |   |      |   |  bosch  |  |@ |   |     o|   |     o|   |     o|   |         |  |@ |   |______|   |______|   |______|   |         |  |@ |____________________________________|_________|  |@ @ @ @ @ @ @ @ @ @ @
+#l:42|to downtairs Corridor|15|13|3|0|
+#s:16|Door|this is the entry|hola hola|0|            +------------+@            | +--+  +--+ |@            | |  |  |  | |@            | +--+  +--+ |@            | +--+  +--+ |@            | |  |  |  | |@            | +--+  +--+ |@            |          o |@            |            |@            |            |@            |            |@            |____________|           @           /              \@          /                \@ @ @ @ @ @ @ @ @ @
+#l:42|to downtairs Corridor|16|13|1|0|
+#l:43|Door|16|17|0|1|
+#s:17|Callejon|this is the entry|hola hola|1|                    @                  |    ***   |@               /| |     ***  |@       |      / | |    ***   |   |\    |@       |  /| /|/| |          |   | \   |@       | / ||/|/  |__________|   |  \  |@       |/  || /  /            \  |  |  |@       ||  ||/  /              \ |  |  |@       ||  |   /                \| o|  |@       || o|  /                  \  |  |@       ||  | /                    \ |  |@       ||  |/                      \|  |@       ||  /                        \  |@       || /                          \ |@       ||/                            \|_________@_______|/@ @ @ @ @ @ @ @
+#l:44|to Door|17|16|1|0|
+#l:45|to Trapdoor|17|18|3|0|
+#l:53|to Shop|17|22|2|0|
+#l:55|to Sea|17|23|0|0|
+#s:18|Trapdoor|this is the entry|hola hola|1|                     |                          |@                     |                          |@                     |__________________________|@                    /     ___________________    \ @                   /     /                   \    \@                  /     /                     \    \@                 /     /                       \    \@                /     /                         \    \@               /     /                           \    \@              /     /              _              \    \@             /     /              | |              \    \@            /     /               /_\               \    \@           /     /___________________________________\    \@          /                                                \@         /                                                  \@        /                                                    \@ @ @ @ @ @ @ @
+#l:46|to Street|18|17|2|0|
+#l:47|Trapdoor|18|19|0|1|
+#s:19|Downstairs|this is the entry|hola hola|0|                              _______@                            _/_______\_@                         __/___________\__@                        /                 \@                    ___/___________________\____@                   /                            \@                  /                              \ @            ____ /________________________________\_____   @           /                                            \@          /                                              \@         /                                                \@        /                                                  \@       /                                                    \ @______/______________________________________________________\___________@ @ @ @ @ @ @ @ @ @
+#l:48|to Trapdoor|19|18|1|0|
+#l:49|to Corridor|19|20|5|0|
+#s:20|Pasillo|this is the entry|hola hola|0|                        |         |@                        |         |@                        |         |    @                        |         |     @                        |_________|      @                       /           \    @            |         /             \         |@            |        /               \        | @            |       /                 \       |@            |      /                   \      |@            |     /                     \     |@            |    /                       \    |@            |   /                         \   |@            |  /                           \  |@            | /                             \ |@____________|/                               \|____________@ @ @ @ @ @ @ @
+#l:50|to Stairs|20|19|4|0|
+#l:51|to Room|20|21|0|0|
+#s:21|Mesa|this is the entry|hola hola|0|          ________________________@         /          ______       /|@        /          / __/o/      / |@       /          /_/'         /  |@      /_______________________/   |@      |   |                   |   |@      |                       |@      |                       |@      |                       |@ @ @ @ @ @ @ @ @ @ @ @ @ @ @
+#l:52|to Corridor|21|20|1|0|
+#s:22|Tienda|this is the entry|hola hola|1| @               """""@              / . . \@              | ___ |@              \_____/@                _|_@               / | \@              /  |  \ @      _______m___|___m________@     |                        |@     |                        |@     |                        |@     |                        |@ @ @ @ @ @ @ @ @ @ @
+#l:54|to Street|22|17|3|0|
+#s:23|Mar|this is the entry|hola hola|1|   *                        ***        *      *@         *                    ***       @                              ****      *     *     @           *                  ***                   *@                            ***                          *@             *                                                @                                                            * @           *          *               @                  @                  *         @                @                                                   @_____________________________________________________________________@             ^^^                            ^^^@                         ^^^^^^@          ^^^^^^                             ^^^@                               ^^^^^^ @ @ @ @ @ @ @
+#l:56|to Street|23|17|1|0|
+#l:55|to Building|23|24|2|0|
+#l:63|to Car|23|29|3|0|
+#s:24|Edificio|this is the entry|hola hola|1|          _ _        _ _        _ _ @    |    |_|_|      |_|_|      |_|_|    |   @    |    |_|_|      |_|_|      |_|_|    |  @    |     _ _        _ _        _ _     |@    |    |_|_|      |_|_|      |_|_|    |@    |    |_|_|      |_|_|      |_|_|    |  @    |          _______________          |@    |         |       |       |         |@    |         |       |       |         |@    |         |     o | o     |         |@    |         |       |       |         |@    |         |       |       |         |@ @ @ @ @ @ @ @ @ @ @ @
+#l:56|to Street|24|23|3|0|
+#l:57|to Park|24|25|2|0|
+#l:59|to Enemy|24|26|0|0|
+#s:25|Parque|this is the entry|hola hola|1|                                       ___________________________@    |__|__                            /\     |   |     |   |     /\  @    |   \ \                          |  |    |   |     |   |    |  |@    |__  \ \                         /  \    |   |     |   |    /  \@    |__\  \ \                       |    |   |   |     |   |   |    |@    |__|\  \ \                      /    \   |   |     |   |   /    \@    |__| \  \ \                    |      |  |___|     |___|  |      |@    |__|  \  \ \                  /        \                 /        \@    |  |   \__\_\                /          \               /          \@                 _               _@                __|_____________|__@                        /\@                       /__\@ @ @ @ @ @ @ @ @ @ @
+#l:58|to Building|25|24|3|0|
+#s:26|Enemigo|this is the entry|hola hola|1|              """""""@             / \   / \@             | .   . |@             |  ___  |@             \_______/@                | |@              / |_| \@             / |_o_| \@            /---|'|---\@                ---@                | |@                / \@               /   \@              |     |@              |     |@             _|     |_@ @ @ @ @ @ @ @
+#l:60|to Building|26|24|1|1|
+#l:61|to Corridor|26|27|0|1|
+#s:27|Corridor|this is the entry|hola hola|0|                        |         |@                        |         |@                        |         |    @                        |         |     @                        |_________|      @                       /           \    @            |         /             \         |@            |        /               \        | @            |       /                 \       |@            |      /                   \      |@            |     /                     \     |@            |    /                       \    |@            |   /                         \   |@            |  /                           \  |@            | /                             \ |@____________|/                               \|____________@ @ @ @ @ @ @ @
+#l:62|to Enemy|27|26|1|0|
+#l:63|to Room|27|28|0|0|
+#s:28|Mesa|this is the entry|hola hola|0| @ @              ________________________ @             /      ______           /| @            /      |\____/|         / | @           /       |______|        /  | @          /_______________________/   | @          |   |                   |   | @          |                       | @          |                       | @          |                       |@ @ @ @ @ @ @ @ @ @ @ @ @
+#l:64|to Corridor|28|27|1|0|
+#s:29|Car|this is the entry|hola hola|1|                   _____________________________@                  / __________   ________   __  \@                 / /___       | |        | |  \  \@                / /___/       | |        | |   \  \@     __________/_/____________|_|________|_|____\  \@    /___       |               |             \     __|@    |_|_|      |             o |           o |    |__|@    |          |               |             |       |@    \__________| *******  _____|________  ******* __/@                *********                *********@               ****   ****              ****   ****@                *********                *********@                 *******                  *******@ @ @ @ @ @ @ @ @ @ @
+#l:64|to Sea|29|23|2|0|
+#l:63|Car|29|30|0|1|
+#s:30|Dentro coche|this is the entry|hola hola|1|                     ___||___@                     \______/@  \                                            /@   \                                          /@    \      _______                           /@_____\____/ _____ \_________________________/_____@     /|  | /__|__\ | |o __ o|  |           |\ @    / |  | \__|__/ | --------  |   _____   | \@   /  |   \_______/      _     |___\___/___|  \@  /  /                  \ /                 \  \@    /                  _|_|_                 \ @                      |     |@ @ @ @ @ @ @ @ @ @ @ @
+#l:64|to Car|30|29|1|0|
+#o:70|Lightswitch1|10|looks misterious|1|0|-1|-1|1|0|-1|
+#o:71|Flashlight|10|looks misterious|1|1|72|-1|1|0|-1|
+#o:72|Battery|10|looks misterious|1|1|-1|-1|0|0|-1|
+#o:73|House_keys|14|looks misterious|1|1|-1|43|0|0|-1|
+#o:74|Trapdoor_keys|25|looks misterious|1|1|-1|47|0|0|-1|
+#o:75|Gun|21|looks misterious|1|1|-1|-1|0|0|4|
+#o:76|Knife|15|looks misterious|1|1|-1|-1|0|0|5|
+#o:77|Potion|22|restores or lowers your health|1|1|-1|-1|0|0|1|
+#o:78|Pizza|22|heals|1|1|-1|-1|0|0|0|
+#o:79|Steak|22|heals|1|1|-1|-1|0|0|0|
+#o:80|Apple|15|heals|1|1|-1|-1|0|0|0|
+#o:81|Vitamins|15|heals 4 HP|1|1|-1|-1|0|0|0|
+#o:82|Backpack|10|it helps you carry more than one thing|0|1|-1|-1|0|0|6|
+#o:83|Shield|25|increases your max health|0|0|-1|-1|0|0|3|
+#o:84|Lightswitch2|11|looks misterious|1|0|-1|-1|1|0|-1|
+#o:85|Lightswitch3|12|looks misterious|1|0|-1|-1|1|0|-1|
+#o:86|Lightswitch4|13|looks misterious|1|0|-1|-1|1|0|-1|
+#o:87|Lightswitch5|14|looks misterious|1|0|-1|-1|1|0|-1|
+#o:88|Lightswitch6|15|looks misterious|1|0|-1|-1|1|0|-1|
+#o:89|Lightswitch7|16|looks misterious|1|0|-1|-1|1|0|-1|
+#o:90|Envelope|28|looks misterious|1|1|-1|-1|0|0|-1|
+#o:91|Car_keys|28|looks misterious|1|1|90|63|0|0|-1|
+#d:-1|0|0|You have woken up in a room. Find the information and hand it in time to deactivate the bomb.|
+#d:2|1|0|You have taken *|
+#d:2|0|0|You cannot take *|
+#d:2|0|1|You have already failed when trying to take *|
+#d:3|1|0|You have dropped *|
+#d:3|0|0|You cannot drop *|
+#d:3|0|1|You have already failed when trying to drop *|
+#d:0|0|0|This is an invalid action|
+#d:0|0|1|This is an invalid action|
+#d:4|1|0|You attacked the enemy|
+#d:4|0|0|You cannot attack the enemy|
+#d:4|0|1|You have already failed when trying to attack the enemy|
+#d:5|1|0|You have moved *|
+#d:5|0|0|You cannot move *|
+#d:5|0|1|You have already failed when trying to move *|
+#d:6|1|0|You have inspected *|
+#d:6|0|0|You cannot inspect *|
+#d:6|0|1|You have already failed when trying to inspect *|
+#d:7|1|0|You have turned on *|
+#d:7|0|0|You cannot turn on *|
+#d:7|0|1|You have already failed when trying to turn on *|
+#d:8|1|0|You have turned off *|
+#d:8|0|0|You cannot turn off *|
+#d:8|0|1|You have already failed when trying to turn on *|
+#d:9|1|0|You have opened # with *|
+#d:9|0|0|You cannot open # with *|
+#d:9|0|1|You have already failed when trying to open # with *|
+#d:10|1|0|You have saved your game|
+#d:10|0|0|You cannot save your game|
+#d:10|0|1|You have already failed when trying to save your game|
+#d:11|1|0|You have loaded your game|
+#d:11|0|0|You cannot load your game|
+#d:11|0|1|You have already failed when trying to load your game|
+#d:12|1|0|You shot the enemy|
+#d:12|0|0|You cannot shoot the enemy|
+#d:12|0|1|You have already failed when trying to shoot the enemy|
+#d:13|1|0|You stabbed the enemy|
+#d:13|0|0|You cannot stab the enemy|
+#d:13|0|1|You have already failed when trying to stab the enemy|
